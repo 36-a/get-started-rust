@@ -1,0 +1,18 @@
+[package]
+name = "loops"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "loop"
+path = "src/loop.rs"
+
+[[bin]]
+name = "while"
+path = "src/while.rs"
+
+[[bin]]
+name = "for"
+path = "src/for.rs"
+
+[dependencies]

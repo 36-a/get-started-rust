@@ -1,0 +1,22 @@
+[package]
+name = "common_programming_concepts"
+version = "0.1.0"
+edition = "2024"
+
+[[bin]]
+name = "variables"
+path = "src/variables.rs"
+
+[[bin]]
+name = "shadowing"
+path = "src/shadowing.rs"
+
+[[bin]]
+name = "types"
+path = "src/compound_types.rs"
+
+[[bin]]
+name = "functions"
+path = "src/functions.rs"
+
+[dependencies]
